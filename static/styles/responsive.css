@@ -1,0 +1,102 @@
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    h1, h2, h3, h4 {
+        font-weight: 700;
+    }
+    .overlay {
+        width: 100%;
+    }
+    .svg-bg, .svg {
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        display: inline-block;
+        left: 0;
+    }
+    .svg-bg#causesSec {
+        top: 20%;
+        left: 0rem;
+        transform: translateY(-80%);
+    }
+    .slider {
+        width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .slide-row {
+        padding: 2rem 1rem 2rem 2rem;
+    }
+    .slide-row h1 {
+        width: 100%;    
+        /* font-size: 2rem; */
+    }
+    .slide-row:nth-child(1) {
+        padding: 2rem 1rem;
+    }
+    .slide-row:nth-child(2) {
+        padding: auto;
+    }
+    .slide-row img {
+        width: 100%;
+        height: auto;
+    }
+    .about-section {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+    .about-col:nth-child(2) {
+        grid-template-columns: 1fr;
+    }
+    .causes-section {
+        padding: 2rem 1rem;
+        grid-template-columns: 1fr;
+    }
+    section > h2,
+    section > h5, section p  {
+        text-align: center;
+    }
+    section h2 {
+        text-align: center;
+        width: 100%;
+    }
+    .courses-container, 
+    .programs-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .programs_section {
+        padding: 2rem 1rem;
+    }
+    .opportunities-section {
+        padding: 2rem 1rem;
+        grid-template-columns: 1fr;
+    }
+    .donation-section {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .donation-col:nth-child(1) {
+        padding: 2rem 3rem;
+    }
+    .donation-col > h2 {
+        width: 100%;
+    }
+    .donation_form {
+        padding: 2rem 1rem;
+    }
+    .form_container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .form_row#two_col {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .subscribe-section {
+        padding: 2rem 1rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
