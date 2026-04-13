@@ -246,13 +246,13 @@ section h2 {
     object-fit: cover;
     filter: brightness(80%);
     aspect-ratio: 4 / 3;
-    border-radius: 10px;
+    /* border-radius: 30px; */
 }
 .causes-col h3 {
     font-size: var(--font-size-h4);
     margin: 1rem 0;
     font-weight: 600;
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
 }
 .causes-col p {
     font-size: var(--font-size-text);
