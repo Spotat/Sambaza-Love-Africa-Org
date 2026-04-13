@@ -31,7 +31,7 @@
     .slide-row {
         padding: 2rem 1rem 2rem 2rem;
     }
-    .slide-row h1 {
+    .slide-row > h1 {
         width: 100%;    
         font-size: 2rem;
     }
