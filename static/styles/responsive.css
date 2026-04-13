@@ -33,7 +33,7 @@
     }
     .slide-row h1 {
         width: 100%;    
-        /* font-size: 2rem; */
+        font-size: 2rem;
     }
     .slide-row:nth-child(1) {
         padding: 2rem 1rem;
